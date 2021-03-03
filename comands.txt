@@ -1,0 +1,11 @@
+docker exec -it <id> bash
+
+iex -S mix 
+
+compile
+
+recompile
+
+FizzBuzz.build("numbers.txt")
+FizzBuzz.build("invalid.txt")
+
